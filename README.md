@@ -14,8 +14,8 @@ ATC classification, and clinical warnings** into a unified workflow.
 - Detect **pairwise drug–drug interactions** based on target overlap
 - Generate **CSV reports** and a **network visualization**
 - Produce a **summary report** for decision support
-
-## 📊Example Output
+- 
+## Example Output
 - Mechanisms: `drug_mechanisms.csv`
 - ATC classes: `drug_atc.csv`
 - Clinical warnings: `drug_warnings.csv`
@@ -24,7 +24,7 @@ ATC classification, and clinical warnings** into a unified workflow.
 
 ![Example Network](outputs/example_network.png)
 
-## 🔧 Installation
+## Installation
 ```bash
 git clone https://github.com/<your-username>/drug-interaction-pipeline.git
 cd drug-interaction-pipeline
