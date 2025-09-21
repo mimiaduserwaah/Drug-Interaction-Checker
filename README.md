@@ -1,3 +1,23 @@
+drug-interaction-pipeline/
+│── README.md
+│── requirements.txt
+│── LICENSE
+│── data/
+│    └── chembl_35.db   (⚠ do NOT commit large ChEMBL DB, add a note to download it)
+│── notebooks/
+│    └── demo_pipeline.ipynb   (your Jupyter Notebook with step-by-step analysis)
+│── src/
+│    └── pipeline.py           (clean modular Python script version)
+│── outputs/
+│    ├── example_network.png
+│    ├── drug_mechanisms.csv
+│    ├── drug_interactions.csv
+│    ├── drug_atc.csv
+│    └── drug_warnings.csv
+
+
+
+
 # Drug-Interaction-Checker
 
 # Drug–Drug Interaction Analysis Pipeline
