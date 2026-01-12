@@ -46,6 +46,6 @@ ATC classification, and clinical warnings** into a unified workflow.
 
 ## Installation
 ```bash
-git clone https://github.com/<your-username>/drug-interaction-pipeline.git
+git clone https://github.com/mimiaduserwaah/drug-interaction-pipeline.git
 cd drug-interaction-pipeline
 pip install -r requirements.txt
