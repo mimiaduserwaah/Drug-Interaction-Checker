@@ -34,7 +34,7 @@ ATC classification, and clinical warnings** into a unified workflow.
 - Detect **pairwise drug–drug interactions** based on target overlap
 - Generate **CSV reports** and a **network visualization**
 - Produce a **summary report** for decision support
-- 
+
 ## Example Output
 - Mechanisms: `drug_mechanisms.csv`
 - ATC classes: `drug_atc.csv`
