@@ -3,7 +3,7 @@ drug-interaction-pipeline/
 │── requirements.txt
 │── LICENSE
 │── data/
-│    └── chembl_35.db   (⚠ do NOT commit large ChEMBL DB, add a note to download it)
+│    └── chembl_35.db   ( do NOT commit large ChEMBL DB, add a note to download it)
 │── notebooks/
 │    └── demo_pipeline.ipynb   (your Jupyter Notebook with step-by-step analysis)
 │── src/
