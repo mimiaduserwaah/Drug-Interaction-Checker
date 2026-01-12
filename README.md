@@ -1,3 +1,5 @@
+python src/pipeline.py --drugs aspirin warfarin metformin
+
 drug-interaction-pipeline/
 │── README.md
 │── requirements.txt
