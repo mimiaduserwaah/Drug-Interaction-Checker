@@ -5,7 +5,7 @@ drug-interaction-pipeline/
 │── data/
 │    └── chembl_35.db   ( do NOT commit large ChEMBL DB, add a note to download it)
 │── notebooks/
-│    └── demo_pipeline.ipynb   (your Jupyter Notebook with step-by-step analysis)
+│    └── demo_pipeline.ipynb   (My Jupyter Notebook with step-by-step analysis)
 │── src/
 │    └── pipeline.py           (clean modular Python script version)
 │── outputs/
