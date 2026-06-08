@@ -1,53 +1,20 @@
-python src/pipeline.py --drugs aspirin warfarin metformin
+Readme · MDCopyDrug–Drug Interaction Analysis Pipeline
+# A Python pipeline that screens for potential drug–drug interactions (DDIs) using the DrugBank vocabulary. It standardizes drug-name data, matches free-text drug names to DrugBank entries (exact name → synonyms → partial match), detects pairwise interactions, and produces CSV reports and a network visualization to support clinical decision-making.
 
-drug-interaction-pipeline/
-│── README.md
-│── requirements.txt
-│── LICENSE
-│── data/
-│    └── chembl_35.db   ( do NOT commit large ChEMBL DB, add a note to download it)
-│── notebooks/
-│    └── demo_pipeline.ipynb   (My Jupyter Notebook with step-by-step analysis)
-│── src/
-│    └── pipeline.py           (clean modular Python script version)
-│── outputs/
-│    ├── example_network.png
-│    ├── drug_mechanisms.csv
-│    ├── drug_interactions.csv
-│    ├── drug_atc.csv
-│    └── drug_warnings.csv
+# Author: Mimi Adu-Serwaah, PharmD, MS
+# Features
 
+Standardize and clean DrugBank vocabulary data
+Match free-text drug names to canonical DrugBank entries (exact, synonym, partial)
+Detect pairwise drug–drug interactions
+Generate CSV reports and a network-graph visualization
+Produce a summary suitable for decision support
 
-
-
-# Drug-Interaction-Checker
-
-# Drug–Drug Interaction Analysis Pipeline
-
-This project implements a **modular pipeline** to analyze potential drug–drug interactions (DDIs) 
-using the ChEMBL database (v35). It integrates **mechanism of action, target overlap, 
-ATC classification, and clinical warnings** into a unified workflow.
-
-##  Features
-- Map free-text drug names to canonical ChEMBL identifiers
-- Extract **mechanism of action** and biological targets
-- Retrieve **ATC pharmacological classifications**
-- Retrieve **clinical warnings** (e.g., black box warnings)
-- Detect **pairwise drug–drug interactions** based on target overlap
-- Generate **CSV reports** and a **network visualization**
-- Produce a **summary report** for decision support
-
-## Example Output
-- Mechanisms: `drug_mechanisms.csv`
-- ATC classes: `drug_atc.csv`
-- Clinical warnings: `drug_warnings.csv`
-- Interactions: `drug_interactions.csv`
-- Visualization: `drug_network.png`
-
-![Example Network](outputs/example_network.png)
-
-## Installation
-```bash
+Tech stack
+Python · pandas · networkx · matplotlib
+Data (not included)
+This repository does not redistribute DrugBank data. Download the DrugBank vocabulary CSV
+from go.drugbank.com under its free academic license and place it at:
 
 cd drug-interaction-pipeline
 pip install -r requirements.txt
